@@ -23,7 +23,7 @@ import re
 import os
 
 bot = Client("bot",
-             bot_token= "6606819516:AAETdcyQ8ErlNU7Coqpm97qz9aJ72_WLphY",
+             bot_token= "6802969175:AAFyOSDg6vaW8XwanR0iHFynaNRt9wB9R98",
              api_id= 20088962,
              api_hash= "257f47d347157555890a64b12bc0134f"
 )
@@ -154,7 +154,7 @@ async def account_login(bot: Client, m: Message):
             elif 'classplusapp' in url:
                   headers = {
                       'Host': 'api.classplusapp.com',
-                      'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6NTA5MTAzNjYsIm9yZ0lkIjo0MDU0NzMsInR5cGUiOjEsIm1vYmlsZSI6IjkxOTUyMDAzNjgzNCIsIm5hbWUiOiJSYW1wYWwiLCJlbWFpbCI6InNoYWxpbmlzaGFybWExNTA2OEBnbWFpbC5jb20iLCJpc0ludGVybmF0aW9uYWwiOjAsImRlZmF1bHRMYW5ndWFnZSI6IkVOIiwiY291bnRyeUNvZGUiOiJJTiIsImNvdW50cnlJU08iOiI5MSIsInRpbWV6b25lIjoiR01UKzU6MzAiLCJpc0RpeSI6ZmFsc2UsImZpbmdlcnByaW50SWQiOiI5MWU0MTYyODMxNjQxZGFjMTAzYWMyNGMzYjQxNTg4YyIsImlhdCI6MTY4MDI5NTY4MSwiZXhwIjoxNjgwOTAwNDgxfQ.q_iVpHJ1jgpHvb_v3b35AiyjrnW34PuWs00T5tWdyJn9Cm5tzI3ndKhY8I_sPmyn',
+                      'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6Mzg3Mjg5NzYsIm9yZ0lkIjo4NTQ4LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTg3MDgzODc2NDgiLCJuYW1lIjoiTXVzdHVmYSIsImVtYWlsIjpudWxsLCJpc0ludGVybmF0aW9uYWwiOjAsImRlZmF1bHRMYW5ndWFnZSI6IkVOIiwiY291bnRyeUNvZGUiOiJJTiIsImNvdW50cnlJU08iOiI5MSIsInRpbWV6b25lIjoiR01UKzU6MzAiLCJpc0RpeSI6ZmFsc2UsImZpbmdlcnByaW50SWQiOiJiNjVkY2NkZjg2NGE0MGUyZjQyZjQ4YTg2OWYzYzU3MSIsImlhdCI6MTY3MzU3NTkwOSwiZXhwIjoxNjc0MTgwNzA5fQ.c1ZM9_Kzrb4Bmou0c7HNzscPWtBwikdZUCNmv8K0OCo08ySZoktpbhUA9z4DHqRj',
                       'user-agent': 'Mobile-Android',
                       'app-version': '1.4.37.1',
                       'api-version': '18',

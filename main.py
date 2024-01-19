@@ -21,6 +21,7 @@ from config import *
 import sys
 import re
 import os
+import uvloop
 
 bot = Client("bot",
              bot_token= "6606819516:AAETdcyQ8ErlNU7Coqpm97qz9aJ72_WLphY",
